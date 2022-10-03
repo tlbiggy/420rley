@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+body
+{
+    background-color: #12130F;
+}
+#home
+{
+    background-image: url(/pictures/homeback.jpg);
+    background-repeat: no-repeat;
+    background-size: 110em 50em;
+}
+.title 
+{
+    font-size: 50px;
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    padding-top: 5em;
+    color: #ffc9bb;
+    
+    
+
+}
+
+.lkhwa
+{
+    
+    padding-bottom: 8em;
+}
+
+.menubar
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu_text
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #5B9279;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+}
+.menu_text:hover
+{
+    color: #a0c9b6;
+}
+h2
+{ 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: #ffc9bb;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+#paragraphe
+{
+    /*margin-left: 180px;*/
+    padding-left: 0;
+    padding-right: 0;
+    align-items: center;
+    text-align: center;
+    font-family: 'Abyssinica SIL', serif;
+    color: #8FCB9B;
+    /*height: 200px;
+    width: 1000px;*/
+    background: #41423b54;
+    border-radius: 5px;
+   /* padding-bottom: 240px;*/
+    padding: 20px;
+}
+.biggy_pic
+{
+    height: 300px;
+    width: 300px;  
+}
+
+#pic_tartib
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.footer
+{
+    background: #41423b54;
+    display: flex;
+    justify-content: space-between;
+
+}
+.tlbiggy
+{
+    height: 100px;
+    width: 180px;
+    padding-left: 12px;
+}
+.po_lo
+{
+    display: block;
+    justify-content: space-between;
+}
+h3
+{
+    padding: 20px;
+    
+    color: #ffc9bb;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+}
+.contact
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footertext
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #b5b6b188;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+}
