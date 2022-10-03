@@ -9,6 +9,10 @@
     margin: 0;
 
 }
+html
+{
+    scroll-behavior: smooth;
+}
 body
 {
     background-color: #12130F;
@@ -37,7 +41,7 @@ body
     padding-bottom: 8em;
 }
 
-.menubar
+#menubar
 {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -128,6 +132,11 @@ h3
     flex-direction: column;
     
 }
+.menufooter
+{
+    display: flex;
+    flex-direction: column;
+}
 .footertext
 {
     text-decoration: none;
@@ -136,4 +145,9 @@ h3
     color: #b5b6b188;
     transition: all 0.3s ease 0s;
     text-align: center;
+    padding-bottom: 10px;
+}
+.footertext:hover
+{
+    color: #fefff988;
 }
